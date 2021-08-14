@@ -1412,12 +1412,30 @@ img {
 }
 
 @media (max-width: 800px) {
+  .h4 {
+    margin-top: 33%;
+  }
+
   .btn_hero {
     bottom: 15%;
+  }
+
+  .modal__container {
+    width: 90%;
+  }
+
+  .btn-close {
+    top: 10.5%;
+    right: 2.6%;
   }
 }
 
 @media (max-width: 768px) {
+  .h4 {
+    margin-top: 38%;
+    font-size: 34px;
+  }
+
   .btn_discount {
     padding: 30px 60px;
   }
@@ -1490,7 +1508,7 @@ img {
   }
 
   .tariff {
-    width: 80%;
+    width: 75%;
     margin-bottom: 70px;
   }
 
@@ -1556,6 +1574,24 @@ img {
   .footer__policy-block {
     margin-top: 30px;
   }
+
+  .btn-close {
+    width: 40px;
+    height: 40px;
+    top: 12.5%;
+    right: 2.6%;
+  }
+
+  .form__btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .btn-close {
+    top: 14.5%;
+    right: 3.6%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1592,6 +1628,11 @@ img {
     width: 80%;
   }
 
+  .tariff {
+    width: 85%;
+    margin-bottom: 70px;
+  }
+
   .authors__column {
     width: 100%;
   }
@@ -1615,6 +1656,23 @@ img {
 
   .footer__block {
     padding: 88px 20px 30px 20px;
+  }
+
+  .modal__container {
+    width: 98%;
+  }
+
+  .modal__container {
+    width: 100%;
+    height: 100%;
+    background: none;
+    background: -webkit-gradient(linear, left top, right bottom, from(#7c2671), to(#eb208b));
+    background: -o-linear-gradient(left top, #7c2671, #eb208b);
+    background: linear-gradient(to right bottom, #7c2671, #eb208b);
+  }
+
+  .btn-close {
+    top: 5%;
   }
 }
 
