@@ -493,6 +493,24 @@ img {
   border: 1px solid #5a134f;
 }
 
+.hero__authors1 {
+  display: none;
+}
+
+.btn_hero1 {
+  display: none;
+}
+
+.btn_hero-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -10px;
+}
+
 .about {
   background-color: #3b0c33;
   background-image: url("../img/Wildberries.png");
@@ -1436,6 +1454,73 @@ img {
     padding: 30px 60px;
   }
 
+  .hero {
+    height: auto;
+  }
+
+  .hero__offer {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .hero__title {
+    font-size: 40px;
+  }
+
+  .hero__title-span {
+    font-size: 40px;
+    letter-spacing: 0;
+  }
+
+  .hero__title-span1 {
+    font-size: 40px;
+    letter-spacing: 0;
+  }
+
+  .hero__wildberries {
+    font-size: 50px;
+    letter-spacing: 0;
+  }
+
+  .hero__text {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .hero__authors {
+    display: none;
+  }
+
+  .hero__authors-block {
+    display: none;
+  }
+
+  .hero__desc {
+    width: 80%;
+    position: static;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .btn_hero {
+    display: none;
+  }
+
+  .hero__authors1 {
+    display: block;
+  }
+
+  .btn_hero1 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 18px;
+    padding: 30px 18px;
+    border: 1px solid #eb208b;
+    margin-bottom: 40px;
+  }
+
   .tariff {
     width: 80%;
     margin-bottom: 70px;
@@ -1519,6 +1604,18 @@ img {
     font-size: 24px;
   }
 
+  .hero__number {
+    font-size: 30px;
+  }
+
+  .hero__sum {
+    font-size: 30px;
+  }
+
+  .hero__number-block {
+    left: 30px;
+  }
+
   .target {
     width: 80%;
   }
@@ -1550,5 +1647,22 @@ img {
 
   .footer__block {
     padding: 88px 20px 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__title-span1 {
+    font-size: 30px;
+    letter-spacing: 0;
+  }
+
+  .hero__wildberries {
+    font-size: 30px;
+    letter-spacing: 0;
+  }
+
+  .btn_hero1 {
+    font-size: 16px;
+    padding: 26px 16px;
   }
 }
