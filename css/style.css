@@ -722,44 +722,16 @@ img {
 .tariff::before {
   content: "";
   position: absolute;
-  font-family: 'CoreSans', sans-serif;
+  font-family: CoreSans,sans-serif;
   font-size: 34px;
   font-weight: 500;
-  top: 0;
+  top: -41px;
   -webkit-transform: translateY(-20%);
-      -ms-transform: translateY(-20%);
-          transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
   right: -5%;
-  width: 100%;
+  width: 94%;
   height: 160px;
-}
-
-.tariff::after {
-  content: "";
-  text-transform: uppercase;
-  position: absolute;
-  font-family: 'CoreSans', sans-serif;
-  font-size: 34px;
-  font-weight: 500;
-  top: 0;
-  -webkit-transform: translateY(-20%);
-      -ms-transform: translateY(-20%);
-          transform: translateY(-20%);
-}
-
-.tariff_life::after {
-  content: "life";
-  left: 50%;
-}
-
-.tariff_prom::after {
-  content: "продвижение";
-  left: 25%;
-}
-
-.tariff_million::after {
-  content: "на миллион";
-  left: 30%;
 }
 
 .tariff_life::before {
@@ -1248,10 +1220,6 @@ img {
 
   .btn_hero {
     right: 0;
-  }
-
-  .tariff::after {
-    font-size: 30px;
   }
 
   .tariff__number {
