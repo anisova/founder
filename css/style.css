@@ -471,8 +471,8 @@ img {
 }
 
 .hero__marker {
-  width: 21px;
-  height: 21px;
+  width: 18px;
+  height: 18px;
   background-color: #eb208b;
   border-radius: 50%;
   margin-right: 18px;
@@ -1111,6 +1111,7 @@ img {
       -ms-flex: 1;
           flex: 1;
   padding: 1em 0 3px 0;
+  color: white;
   margin-bottom: 16px;
 }
 
@@ -1305,15 +1306,37 @@ img {
 
   .hero__authors {
     width: 84%;
-    bottom: 9%;
+    top: 24%;
+    bottom: auto;
+  }
+
+  .hero__authors-block {
+    top: 58%;
   }
 
   .hero__authors-title {
-    font-size: 26px;
+    font-size: 20px;
+    margin-bottom: 8px;
   }
 
   .hero__name {
-    font-size: 26px;
+    font-size: 22px;
+  }
+
+  .hero__desc {
+    bottom: 2%;
+    font-size: 16px;
+    width: 40%;
+  }
+
+  .hero__marker {
+    width: 10px;
+    height: 10px;
+  }
+
+  .btn_hero {
+    right: 10%;
+    font-size: 16px;
   }
 
   .target {
@@ -1361,6 +1384,21 @@ img {
 }
 
 @media (max-width: 900px) {
+  .hero__authors-block {
+    top: 52%;
+  }
+
+  .hero__desc {
+    bottom: 4%;
+  }
+
+  .btn_hero {
+    right: 10%;
+    font-size: 14px;
+    bottom: 12%;
+    padding: 26px 20px;
+  }
+
   .authors {
     height: auto;
   }
@@ -1379,6 +1417,17 @@ img {
   .authors__photo1 {
     display: block;
     width: 80%;
+  }
+
+  .footer__icon-img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .btn_hero {
+    bottom: 15%;
   }
 }
 
