@@ -1173,6 +1173,10 @@ img {
     max-width: 1000px;
   }
 
+  .h3_about {
+    min-height: auto;
+  }
+
   .btn {
     font-size: 18px;
   }
