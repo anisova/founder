@@ -184,7 +184,7 @@ img {
 .h2_discount {
   width: 50%;
   margin: 0 auto;
-  font-family: 'Verdana',sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 40px;
   font-weight: 400;
   padding: 64px 0 35px 0;
@@ -722,7 +722,7 @@ img {
 .tariff::before {
   content: "";
   position: absolute;
-  font-family: CoreSans,sans-serif;
+  font-family: CoreSans, sans-serif;
   font-size: 34px;
   font-weight: 500;
   top: -41px;
