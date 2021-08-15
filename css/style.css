@@ -1223,7 +1223,14 @@ img {
   }
 
   .tariff__number {
-    font-size: 40px;
+    font-size: 38px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+
+  .tariff__price-text {
+    font-size: 36px;
   }
 
   .authors {
@@ -1387,6 +1394,11 @@ img {
 
   .authors {
     height: auto;
+  }
+
+  .authors__list {
+    margin-top: 0px;
+    padding-right: 20px;
   }
 
   .authors__photo {
@@ -1629,7 +1641,7 @@ img {
   }
 
   .tariff {
-    width: 85%;
+    width: 90%;
     margin-bottom: 70px;
   }
 
@@ -1677,6 +1689,10 @@ img {
 }
 
 @media (max-width: 480px) {
+  .btn_buy {
+    padding: 18px 60px;
+  }
+
   .hero__title-span1 {
     font-size: 30px;
     letter-spacing: 0;
@@ -1690,5 +1706,22 @@ img {
   .btn_hero1 {
     font-size: 16px;
     padding: 26px 16px;
+  }
+
+  .tariffs__block {
+    padding: 0 10px;
+  }
+
+  .tariff {
+    width: 92%;
+    margin-bottom: 70px;
+  }
+
+  .tariff__number {
+    font-size: 29px;
+  }
+
+  .tariff__price-text {
+    font-size: 30px;
   }
 }
